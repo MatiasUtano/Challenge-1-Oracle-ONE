@@ -1,0 +1,120 @@
+*{
+    background-color:#454443;
+    margin: 0;
+    padding: 0;
+    font-family: 'VT323', monospace;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 150%;
+    color: #06d806;
+}
+
+h1{
+    text-align: center;
+    text-decoration-line: underline;
+    text-shadow: 2px 2px 2px #000000;
+    font-size: 50px;
+}
+
+::placeholder{
+    color: #7EA2AA;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+main{
+    display: flex;
+    width: 1440px;
+    height: 1024px;
+}
+
+#input-text{
+    background-color: #000000;
+    margin-top: 168px;
+    margin-left: 240px;
+    width: 680px;
+    height: 288px;
+    border-color:#06d806;
+    padding: 32px;
+    box-shadow: 3px 3px 3px black;
+}
+
+#input-text-2{
+    position: relative;
+    height: 944px;
+    width: 400px;
+    margin-top: 40px;
+    margin-right: 240px;
+    margin-bottom: 40px;
+    margin-left: 240px;
+    border-color:#06d806;
+    padding: 32px;
+    padding-bottom: 131px;
+    box-shadow: 3px 3px 3px black;
+    background-color: #000000;
+}
+
+#logo{
+    margin-left: 84px;
+    width: 32px;
+    height: 48px;
+}
+
+h6{
+    font-family: 'Libre Barcode 128 Text', cursive;
+    font-size: 31.6px;
+    margin-left: 240px;
+    margin-top: 200px;
+    text-shadow: 3px 3px 3px black;
+}
+
+#btn-encriptar{
+    border-color: #06d806;
+    margin-left: 240px;
+    margin-bottom: 72px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 3px 3px 3px black;
+}
+
+#btn-desencriptar{
+    border-color: #06d806;
+    margin-left: 20px;
+    margin-bottom: 72px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 3px 3px 3px black;
+}
+
+#btn-copiar{
+    position: absolute;
+    border-color: #06d806;
+    margin-top: 1050px;
+    margin-right: 300px;
+    margin-left: -540px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#logo2{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    margin-top: 600px;
+    margin-right: 300px;
+    margin-left: -620px;
+    background-color: #000000;
+}
+
+footer{
+    position: relative;
+    margin-top:200px;
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    text-shadow: 2px 2px 2px #000000;
+}
